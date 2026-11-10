@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction of HTML</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .header-table {
+            width: 100%;
+            background: radial-gradient(rgb(219, 219, 188), rgb(143, 208, 222));
+            border-collapse: collapse;
+        }
+
+        .header-table td {
+            padding: 10px;
+            vertical-align: middle;
+        }
+
+        .logo img {
+            width: 55px;
+            height: 55px;
+        }
+
+        .title {
+            color: rgb(212, 159, 90);
+            font-family: Arial, sans-serif;
+        }
+
+        .menu {
+            text-align: right;
+            white-space: nowrap;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            margin-left: 60px;
+            font-size: 18px;
+        }
+
+        .menu a:hover {
+            color: maroon;
+        }
+
+        /* Main Layout */
+        .content {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .sidebar {
+            width: 20%;
+            background-color: #f2f2f2;
+            padding: 20px;
+            vertical-align: top;
+            border-right: 2px solid #ccc;
+        }
+
+        .sidebar h3 {
+            margin-bottom: 20px;
+        }
+
+        .sidebar ul {
+            list-style: none;
+        }
+
+        .sidebar li {
+            margin: 15px 0;
+        }
+
+        .sidebar a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        .sidebar a:hover {
+            color: rgb(128, 0, 0);
+        }
+.main-content {
+            width: 80%;
+            padding: 20px;
+            vertical-align: top;
+        }
+
+        .main-content h2,
+        .main-content h3 {
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        .main-content p,
+        .main-content ul {
+            margin-bottom: 15px;
+        }  
+        
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <table class="header-table" >
+            <tr>
+                <td class="logo">
+                    <img src="https://cdn3d.iconscout.com/3d/free/thumb/free-html-3d-icon-png-download-7578018.png"
+                        alt="HTML Logo">
+                </td>
+
+                <td class="title">
+                    <h2>HTML REFERENCE SITE</h2>
+                </td>
+
+                <td class="menu">
+                    <a href="introduction.html">Introduction</a>
+                    <a href="lists.html">Lists</a>
+                    <a href="Forms.html">Forms</a>
+                    <a href="content display.html">Content Display</a>
+                    <a href="tables.html">Tables</a>
+                    <a href="Multimedia.html">Multimedia</a>
+                    <a href="hyperlinks.html">HyperLinks</a>
+                </td>
+            </tr>
+        </table>
+    </header>
+
+    <table class="content">
+        <tr>
+            <td class="sidebar">
+
+                <h3>HTML Introduction</h3>
+                <ul>
+                    <li><a href="#What">What is HTML</a></li>
+                    <li><a href="#features">Features of HTML</a></li>
+                    <li><a href="#structure">Basic Structure of HTML</a></li>
+                    <li><a href="#elements">HTML Elements & Tags</a></li>
+                    <li><a href="#attributes">HTML Attributes</a></li>
+                </ul>
+
+            </td>
+            <td class="main-content">
+
+                <h2 id="What">What is HTML</h2>
+
+                <p>
+                 HTML stands for <b>HyperText Markup Language</b>. It is the standard markup
+language used to create and design web pages. HTML defines the structure of
+a webpage by using different elements called tags. These tags tell the browser
+how to display text, images, videos, tables, forms, links, and other content.
+</p>
+
+<h3>Definition</h3>
+
+<p>
+                   HTML is not a programming language; it is a markup language. It uses tags
+to organize content into headings, paragraphs, lists, tables, images, and
+other webpage components. Every website on the Internet uses HTML as its
+foundation.
+</p>
+
+<h3>Uses of HTML</h3>
+
+<ul>
+    <li>Creates the structure of web pages.</li>
+    <li>Adds headings and paragraphs.</li>
+    <li>Displays images, audio, and videos.</li>
+    <li>Creates hyperlinks between web pages.</li>
+    <li>Designs forms for user input.</li>
+    <li>Creates tables and lists.</li>
+    <li>Works with CSS for styling and JavaScript for interactivity.</li>
+</ul>
+
+<h3>Example of HTML</h3>
+
+<pre>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First Page</title>
+</head>
+<body>
+    <h1>Welcome to HTML</h1>
+    <p>This is my first webpage.</p>
+</body>
+</html>
+</pre>
+
+<h3>Key Points</h3>
+
+<ul>
+    <li>HTML stands for HyperText Markup Language.</li>
+    <li>It is the foundation of every website.</li>
+    <li>HTML uses tags to structure content.</li>
+    <li>It works together with CSS and JavaScript.</li>
+    <li>It is easy to learn and supported by all web browsers.</li>
+</ul>
+        <h2 id="features">Features of HTML</h2>
+<p>
+HTML (HyperText Markup Language) is the standard language used to create web pages.
+It is simple to learn, platform-independent, and supported by all modern web browsers.
+HTML provides the basic structure of every webpage and works together with CSS and
+JavaScript to create attractive and interactive websites.
+</p>
+
+<h3>Key Features</h3>
+
+<ul>
+    <li>Easy to learn and use.</li>
+    <li>Platform independent.</li>
+    <li>Supports multimedia (images, audio, video).</li>
+    <li>Allows hyperlinks between pages.</li>
+    <li>Works with CSS and JavaScript.</li>
+    <li>Supports forms and tables.</li>
+    <li>Search engine friendly.</li>
+</ul>
+
+<h3>Advantages</h3>
+
+<ul>
+    <li>Free and open standard.</li>
+    <li>Supported by every browser.</li>
+    <li>Lightweight and fast.</li>
+    <li>Easy to maintain.</li>
+</ul>
+
+<h2 id="structure">Basic Structure of HTML</h2>
+<p>
+Every HTML document follows a standard structure. The browser reads the document
+from top to bottom and displays the webpage accordingly.
+</p>
+
+<h3>Main Parts of an HTML Document</h3>
+
+<ul>
+    <li><b>&lt;!DOCTYPE html&gt;</b> - Declares HTML5.</li>
+    <li><b>&lt;html&gt;</b> - Root element.</li>
+    <li><b>&lt;head&gt;</b> - Contains title, meta tags and links.</li>
+    <li><b>&lt;title&gt;</b> - Displays page title.</li>
+    <li><b>&lt;body&gt;</b> - Contains visible webpage content.</li>
+</ul>
+
+<h3>Example Structure</h3>
+
+<pre>
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Web Page</title>
+</head>
+<body>
+<h1>Welcome</h1>
+<p>Hello World</p>
+</body>
+</html>
+</pre>
+
+<h2 id="elements">HTML Elements & Tags</h2>
+<p>
+HTML elements are the building blocks of a webpage. Most HTML elements have an
+opening tag, content, and a closing tag.
+</p>
+
+<h3>Common HTML Tags</h3>
+
+<ul>
+    <li>&lt;h1&gt; to &lt;h6&gt; - Headings</li>
+    <li>&lt;p&gt; - Paragraph</li>
+    <li>&lt;a&gt; - Hyperlink</li>
+    <li>&lt;img&gt; - Image</li>
+    <li>&lt;table&gt; - Table</li>
+    <li>&lt;ul&gt; and &lt;ol&gt; - Lists</li>
+    <li>&lt;form&gt; - Form</li>
+    <li>&lt;div&gt; - Division</li>
+</ul>
+
+<h3>Types of Elements</h3>
+
+<ul>
+    <li>Block Elements</li>
+    <li>Inline Elements</li>
+    <li>Semantic Elements</li>
+</ul>
+<h2 id="attributes">HTML Attributes</h2>
+<p>
+Attributes provide additional information about HTML elements.
+They are always written inside the opening tag.
+</p>
+
+<h3>Common HTML Attributes</h3>
+
+<table border="1" cellpadding="8">
+<tr>
+<th>Attribute</th>
+<th>Purpose</th>
+</tr>
+
+<tr>
+<td>href</td>
+<td>Specifies the destination of a link.</td>
+</tr>
+
+<tr>
+<td>src</td>
+<td>Specifies the image source.</td>
+</tr>
+
+<tr>
+<td>alt</td>
+<td>Displays alternate text if the image is unavailable.</td>
+</tr>
+
+<tr>
+<td>id</td>
+<td>Gives a unique identifier.</td>
+</tr>
+
+<tr>
+<td>class</td>
+<td>Groups multiple elements for CSS.</td>
+</tr>
+
+<tr>
+<td>style</td>
+<td>Adds inline CSS.</td>
+</tr>
+
+<tr>
+<td>title</td>
+<td>Shows a tooltip on hover.</td>
+</tr>
+</table>
+
+<h3>Benefits of Attributes</h3>
+
+<ul>
+    <li>Provide additional information.</li>
+    <li>Help in styling with CSS.</li>
+    <li>Used by JavaScript.</li>
+    <li>Improve accessibility.</li>
+</ul>
+    </table>
+
+</body>
+
+</html>
